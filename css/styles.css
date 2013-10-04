@@ -10,18 +10,32 @@ body {
     background-repeat: repeat;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    padding: 10px;
+    padding: 30px;
+}
+
+p{
+	padding: 10px;
 }
 
 .content-box{
 	width: 80%;
 	margin: 0 auto;
+	border: 20px;
 	background-color: #FFF;
 	box-shadow: 1px 1px 3px #555;
 }
 
 .logo{
 	float: left;
+	margin: 10px;
+}
+.factory{
+	float: left;
+	padding: 10px;
+}
+
+.shipping{
+	float: right;
 }
 
 .company{
@@ -37,7 +51,9 @@ body {
 
 nav ul{
 	background-color: #D74710;
+	border: 30px;
 	border-radius: 5px;
+
 }
 
 nav li{
@@ -48,7 +64,7 @@ nav a{
 	display: inline-block;
 	color: #FFF;
 	font-weight: bold;
-	padding: 5px;
+	padding: 10px;
 }
 
 nav a:link,
@@ -58,4 +74,20 @@ nav a:visited{
 
 nav a:hover{
 	background-color: #FF9D45;
+}
+
+.footer{
+	font-style: italic;
+	padding: 10px;
+	font-size: 80%;
+	border-style:solid;
+	border-color: #B0B0B0;
+	border-top-width:1px;
+}
+.person{
+	float: left;
+}
+
+.name{
+	
 }
