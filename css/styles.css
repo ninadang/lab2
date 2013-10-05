@@ -20,7 +20,6 @@ p{
 .content-box{
 	width: 80%;
 	margin: 0 auto;
-	border: 20px;
 	background-color: #FFF;
 	box-shadow: 1px 1px 3px #555;
 }
@@ -39,19 +38,25 @@ p{
 }
 
 .company{
+	padding: 0;
+	padding-top: 10px;
 	font-family: 'Boogaloo', sans-serif;
 	font-size: 36px;
 	color: #116189;
 }
 
 .motto{
+	padding-bottom: 10px;
 	font-style: italic;
 	font-size: 120%;
+	margin: 0 auto;
 }
 
 nav ul{
+	clear: both;
+	margin: 0;
+	padding: 0;
 	background-color: #D74710;
-	border: 30px;
 	border-radius: 5px;
 
 }
@@ -84,10 +89,30 @@ nav a:hover{
 	border-color: #B0B0B0;
 	border-top-width:1px;
 }
+
+a:hover{
+	text-decoration: none;
+}
+
+h2 {
+	padding: 5px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #116189;
+}
+
 .person{
 	float: left;
 }
 
 .name{
-	
+	padding: 0;
+	font-weight: bold;
+	color: #116189;
+	font-size: 20px;
+}
+
+.bio{
+	padding: 0;
+	padding-bottom: 15px;
 }
